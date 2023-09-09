@@ -292,7 +292,98 @@ ScrollReveal().reveal('.card_img-3', {
     distance : '300px',
 });
 
+//! Transiciones Footer
+ScrollReveal().reveal('.integrantes', {
+    delay: 900,
+    duration: 1000,
+    origin : 'top',
+    distance : '300px',
+});
 
+ScrollReveal().reveal('.n1', {
+    delay: 950,
+    duration: 1000,
+    origin : 'bottom',
+    distance : '300px',
+});
+
+ScrollReveal().reveal('.n2', {
+    delay: 1000,
+    duration: 1000,
+    origin : 'bottom',
+    distance : '300px',
+});
+
+ScrollReveal().reveal('.n3', {
+    delay: 1050,
+    duration: 1000,
+    origin : 'bottom',
+    distance : '300px',
+});
+
+ScrollReveal().reveal('.n4', {
+    delay: 950,
+    duration: 1000,
+    origin : 'bottom',
+    distance : '300px',
+});
+
+ScrollReveal().reveal('.n5', {
+    delay: 1000,
+    duration: 1000,
+    origin : 'bottom',
+    distance : '300px',
+});
+
+ScrollReveal().reveal('.n6', {
+    delay: 1050,
+    duration: 1000,
+    origin : 'bottom',
+    distance : '300px',
+});
+
+//*contactos
+ScrollReveal().reveal('.contactos', {
+    delay: 900,
+    duration: 1000,
+    origin : 'top',
+    distance : '300px',
+});
+
+ScrollReveal().reveal('.c1', {
+    delay: 950,
+    duration: 1000,
+    origin : 'bottom',
+    distance : '300px',
+});
+
+ScrollReveal().reveal('.c2', {
+    delay: 1000,
+    duration: 1000,
+    origin : 'bottom',
+    distance : '300px',
+});
+
+ScrollReveal().reveal('.c3', {
+    delay: 1050,
+    duration: 1000,
+    origin : 'bottom',
+    distance : '300px',
+});
+
+ScrollReveal().reveal('.footer_h3', {
+    delay: 800,
+    duration: 900,
+    origin : 'top',
+    distance : '300px',
+});
+
+ScrollReveal().reveal('.footer_p', {
+    delay: 850,
+    duration: 950,
+    origin : 'top',
+    distance : '300px',
+});
 
 function asignarClaseDespuesDeTiempo(componente, clase, tiempo) {
     // Utiliza setTimeout para retrasar la asignación de la clase
@@ -309,6 +400,8 @@ function removerClase(componente, clase) {
         componente.classList.remove(clase);
     }, 3000);
 }
+
+
 let tele = document.getElementById('tele');
 let direc = document.getElementById('direc');
 let h1 = document.getElementById('h1');
@@ -327,3 +420,7 @@ asignarClaseDespuesDeTiempo(p3, 'heartbeat', 2000);
 asignarClaseDespuesDeTiempo(p4, 'heartbeat', 2500);
 // asignarClaseDespuesDeTiempo(img, 'slide-in-fwd-center', 3000);
 
+
+addEventListener('load', function() {
+    this.document.getElementById('loader').classList.toggle('loader-container2');
+});
