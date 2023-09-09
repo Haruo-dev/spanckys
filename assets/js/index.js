@@ -315,9 +315,12 @@ let h1 = document.getElementById('h1');
 // let img = document.getElementById('img');
 let p3 = document.getElementById('p-3');
 let p4 = document.getElementById('p-4');
+let ins = document.getElementById('ins');
 
 asignarClaseDespuesDeTiempo(tele, 'jello-horizontal', 2000);
 asignarClaseDespuesDeTiempo(direc, 'jello-horizontal', 2000);
+asignarClaseDespuesDeTiempo(ins, 'jello-horizontal', 2000);
+
 removerClase(h1,'h1');
 asignarClaseDespuesDeTiempo(h1, 'text-shadow-pop-bottom', 1500);
 asignarClaseDespuesDeTiempo(p3, 'heartbeat', 2000);

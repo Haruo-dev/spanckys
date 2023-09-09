@@ -173,6 +173,10 @@ body {
     border-radius: 5px;
 }
 
+.p-container:hover p {
+    color: #7367f0;
+}   
+
 .mr-1 {
     margin-top: 10px;
 }
@@ -226,11 +230,13 @@ body {
     color: #7367f0;
 }
 
+
+
 .redes-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-items: end;
+    justify-content: baseline;
 }
 
 .redes-container p {
@@ -239,11 +245,12 @@ body {
 
 .redes-container:hover p {
     color: #e83617;
+    
 }
 
 
 .redes-container img {
-    margin: 5px;
+    
     width: 25px;
     height: 25px;
 }
@@ -463,15 +470,87 @@ body {
 
 
 /*_________________*/
-
-
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
 }
 
+.footer-container {
+    border: 2px dotted #fa0000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_contacto-container {
+    padding: 5px;
+    width: 70%;
+    border: 2px dotted #fa0000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.footer_contacto-container h3 {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.footer_contacto-container ul {
+    list-style: none;
+}
+
+.footer_integrantes-container {
+    border: 2px dotted #fa0000;
+    width: 300px;
+
+    position: relative;
+    right: 100px;
+}
+
+.footer_integrantes-container p{
+    color: #a19e9e;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.footer_integrantes-container p:hover {
+    color: #fff;
+}
+
+.footer_integrantes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_info a {
+    display: block;
+    color: #a19e9e;
+    display: block;
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+
+.footer_info a:hover{
+    color: #ffffff;
+}
+
+.footer_h3 {
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.footer_p {
+    font-size: 20px;
+}
 /* Media Queries para diseño responsive */
 @media screen and (max-width: 768px) {
     nav li {
