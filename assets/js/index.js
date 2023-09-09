@@ -422,5 +422,6 @@ asignarClaseDespuesDeTiempo(p4, 'heartbeat', 2500);
 
 
 addEventListener('load', function() {
-    this.document.getElementById('loader').classList.toggle('loader-container2');
+    document.getElementById('loader').classList.toggle('loader-container2');
 });
+
